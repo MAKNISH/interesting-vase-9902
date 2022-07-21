@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 60px;
+    color: white;
+    margin: auto;
+    justify-content: space-between;
+}
+#navbar > div{
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+#navbar div:nth-child(1) > img{
+    width: 115px;
+}
+#navbar div:nth-child(6) > img{
+    width: 22px;
+    filter: brightness(500%)
+}

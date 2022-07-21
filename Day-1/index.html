@@ -4,20 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">   
     <title>Home Page</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
-    //   $(function(){
-    //         $('#footer').load('footermens.html')
-    //     })
-        $(function(){
+      $(function(){
+            $('#footer').load('footer.html')
+        })
+      $(function(){
             $('#navbar').load('navbar.html')
         })
     </script>
 </head>
 <body>
-    <div id="navbar">
 
+    <div id="navbar">
+        <!-- Navbar html code loaded here -->
+    </div>
+
+    <video autoplay loop muted plays-inline id="back-video">
+        <source src="/video/cultvideo2.mp4" type="video/mp4">
+    </video>
+
+    <div id="upperpart">
+        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_500,ar_2.13,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/we-are-cult-logo/text-only-v2.png" alt="error">
+    </div>
+    <h2>A fitness movement that is worth breaking a sweat for</h2>
+    <div class="exploreBtn"><button>EXPLORE CULTPASS</button></div>
+
+    <div id="arrow">
+        <p><i class="arrow down"></i></p>
+    </div>
+
+    <div id="upperpart-2">
+        <div>
+            <h3>cultpass</h3>
+            <h1 class="elite">ELITE</h1>
+            <p>Unlimited access to group classes, all gyms and at-home workouts</p>
+        </div>
+        <div>
+            <h3>cultpass</h3>
+            <h1 class="pro">PRO</h1>
+            <p>Unlimited access to all PRO gyms and at-home workouts</p>
+        </div>
+        <div>
+            <h3>cultpass</h3>
+            <h1 class="live">LIVE</h1>
+            <p>Unlimited access to at- home workouts with calorie traking</p>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <!-- footer code loaded here -->
     </div>
 </body>
 </html>

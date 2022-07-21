@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#upperpart{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#upperpart img{
+    width: 330px;
+    display: block;
+}
+
+#upperpart+h2{
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.exploreBtn{
+    border: transparent;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.exploreBtn > button{
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 20px;
+    color: #ef685d;
+    border-radius: 5px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+#back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    ;
+}
+#arrow{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    align-items: center;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+#upperpart-2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+#upperpart-2 > div{
+    border: 1px solid white;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+.elite{
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.pro{
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+    background-blend-mode: screen;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.live{
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#upperpart-2 > div > h3, p{
+    font-family: 'Nunito', sans-serif;
+    color: #cad3d6;
+}
+#upperpart-2 > div > p{
+    font-size: 15px;
+}

@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    color: whitesmoke;
 }
 
 #footer{
@@ -14,6 +13,7 @@
     height: 400px;
     background-color: black;
     font-size: 13px;
+    color: whitesmoke;
 }
 
 #footer-second{
@@ -21,18 +21,21 @@
     height: 250px;
     background-color: #111213;
     font-size: 12px;
+    color: whitesmoke;
     /* margin: auto; */
 }
 #footer-first > table{
-    border: 1px solid white;
+    width: 90%;
+    /* border: 1px solid white; */
     margin: auto;
+    padding-top: 80px;
 }
 #footer-second > table{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: auto;
     width: 100%;
     margin-left: 20px;
-    padding-top: 50px;
+    padding-top: 50px;  
 }
 table.second{
     margin-top: 50px;

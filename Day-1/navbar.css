@@ -4,7 +4,11 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+#navigate{
+    /* position: fixed; */
+    /* top: 0px; */
+    /* background-color: #333; */
+}
 #header-navbar{
     background-color: transparent;
     display: flex;
@@ -64,7 +68,84 @@
     width: 25px;
 }
 
+.popup{
+    width: 400px;
+    height: 500px;
+    background: #fff;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 0 30px;
+    color: #333;
+    border: 1px solid white;
+    background-color: black;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+}
+.popup img{
+    margin: auto;
+    display: block;
+}
+#firstlogo{
+    margin-top: 10px;
+}
 
+#close{
+    margin-top: 10px;
+    margin-left: 330px;
+    filter: brightness(100);
+}
+#loginsec{
+    height: 20px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    text-decoration: underline;
+    /* font-size: 20px; */
+    border: transparent;
+}
+#loginsec >input{
+    width: 90%;
+    background-color: black;
+    border: transparent;
+    margin-left: 10px;
+    color: white;
+    padding: 10px;
+}
+#loginsec2{
+    width: auto;
+    height: auto;
+    background-color: #1a1a1a;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+    padding: 8px;
+    border-radius: 5px;
+    gap: 8px;
+    margin-top: 30px;
+}
+#loginsec2 > h4{
+    margin-top: 4px;
+    margin-right: 100px;
+}
+.popup button{
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    background-color: #b3b3b3;
+    margin-top: 30px;
+}
 
 
 

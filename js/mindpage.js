@@ -66,5 +66,35 @@ let mindData = [
 ];
 
 mindData.forEach (function(elem){
-	let box = document.cre
+	
+	let box = document.createElement("div");
+	box.style.display = "flex";
+
+	let image = document.createElement("img");
+	image.setAttribute("src", elem.img);
+
+	let head = document.createElement("h2");
+	head.innerText = elem.heading;
+
+	let detail = document.createElement("p");
+	detail.innerText = elem.detail;
+
+	let time = document.createElement("h5");
+	time.innerText = elem.time;
+
+	let amount = document.createElement("h4");
+	amount.innerText = elem.amount;
+
+	let discount = document.createElement("h4");
+	discount.innerText = elem.discount;
+
+	box.append(image, head, detail, time, amount, discount);
+
+	document.querySelector("#content-mind").append(box);
+
+})
+
+mindData.forEach (function(elem){
+
+	
 })

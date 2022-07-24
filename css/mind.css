@@ -51,6 +51,9 @@
     padding-left: 70px;
     padding-right: 70px;
 }
+#content-mind > img{
+    width: 100%;
+}
 #content-mind > div {
     border: 1px solid red;
     border-radius: 10px;

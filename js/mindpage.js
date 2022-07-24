@@ -64,3 +64,7 @@ let mindData = [
 		discount:"₹ 699"
 	}
 ];
+
+mindData.forEach (function(elem){
+	let box = document.cre
+})

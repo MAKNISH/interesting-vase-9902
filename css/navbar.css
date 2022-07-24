@@ -9,6 +9,10 @@
     /* top: 0px; */
     /* background-color: #333; */
 }
+#logoCult{
+    width: 110px;
+    margin-right: 200px;
+}
 #header-navbar{
     background-color: transparent;
     display: flex;

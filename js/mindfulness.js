@@ -120,3 +120,28 @@ let mindfulnessData = [
 		packs: "5 Packs"
 	}
 ];
+
+mindfulnessData.forEach(function (elem){
+    let box= document.createElement("div");
+    box.style.display="flex";
+
+	let avatar=document.createElement("img");
+	avatar.setAttribute("src",elem.img);
+
+	let head= document.createElement("h2");
+	head.innerText=elem.heading;
+
+	let he=document.createElement("p");
+	he.innerText=elem.details;
+
+	let pack=document.createElement("h6");
+	pack.innerText=elem.packs;
+
+
+
+box.append(avatar, head, he, pack);
+
+
+document.querySelector("#middle").append(box);
+
+})
